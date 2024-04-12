@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'open-sans', monospace;
+}
+
+.mainLogin {
+    width: 100vw;
+    height: 100vh;
+    font-size: 15pt;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #201b2c;
+}
+
+.infoEsquerda {
+    margin: 0;
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.infoEsquerda > h1 {
+    color: #77ffc0;
+    font-size: 2vw;
+}
+
+.FormulárioDireita {
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#CaixaFormulário {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #2f2841;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+
+#sexo{
+    width: 100%;
+    font-size: 12pt;
+    color: #f0ffffde;
+    background: #514869;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    margin-bottom: 10px 0px;
+    cursor: pointer;
+}
+
+input {
+    width: 91%;
+    font-size: 12pt;
+    color: #f0ffffde;
+    background: #514869;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    margin-bottom: 10px 0px;
+}
+
+p {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+input::placeholder{
+    color: #f0ffff94;
+}
+
+button {
+    width: 100%;
+    margin-top: 10px;
+    border: 1px;
+    padding: 16px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #00ff88;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+    margin-top: 10px 0px;
+}
+
+.fotoEsquerda {
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #434d53;
+}
+
+.exibirUser{
+    background-color: red;
+    width: 100vw;
+    height: 50vh;
+}

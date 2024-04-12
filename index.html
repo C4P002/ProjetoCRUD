@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainLogin">
+        <div class="infoEsquerda">
+            <h1>Insira suas informações cadastrais</h1>
+            <img src="animacao.svg" class="fotoEsquerda" alt="fotinha">
+        </div>
+        <div class="FormulárioDireita">
+            <form id="CaixaFormulário">
+                    <p>Nome:</p>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo">
+
+                    <p>Email:</p>
+                    <input type="email" id="email" name="email" placeholder="Digite seu email">
+
+                    <p>Gênero:</p>
+                        <select name="gender" id="sexo">
+                            <option value="select"> </option>
+                            <option value="masc">Masculino</option>
+                            <option value="fem">Feminino</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    <p>Usuário:</p>
+                    <input type="text" id="usuario" name="user" placeholder="Digite seu usuário">
+                    <button type="submit">Enviar</button>
+                    <button type="submit" id="AtualizarInput">Atualizar</button>
+            </form>
+        </div>
+    </div>
+    <div class="exibirUser" id="exibirUser">
+        <h1 class="tituloCad">Cadastros</h1>
+    </div>
+    <script src="main2.js"></script> 
+</body>
+
+</html>
